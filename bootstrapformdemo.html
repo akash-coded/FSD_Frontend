@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First HTML Form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="text-primary">Example Forms:</h1>
+    <h5 class="text-secondary">Subtext1</h5>
+    <hr />
+
+    <section>
+      <form>
+        <div class="row form-group">
+          <div class="col">
+            <label for="fname">First name:*</label> <br />
+            <input
+              type="text"
+              class="form-control"
+              id="fname"
+              name="fname"
+              placeholder="John"
+              required
+              autofocus
+            />
+          </div>
+          <div class="col">
+            <label for="mname">Middle name:</label> <br />
+            <input
+              type="text"
+              class="form-control"
+              id="mname"
+              name="mname"
+              placeholder="K"
+            />
+          </div>
+          <div class="col">
+            <label for="lname">Last name:</label> <br />
+            <input
+              type="text"
+              class="form-control"
+              id="lname"
+              name="lname"
+              placeholder="Doe"
+            />
+          </div>
+        </div>
+
+        <!-- One form input group looks like this: -->
+        <div class="form-group">
+          <label for="email">Email:*</label> <br />
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="abc@xyz.com"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Your email is safe with us</small
+          >
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Readonly text"
+            readonly
+          />
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            name="option1"
+            id="option1"
+          />
+          <label for="option1" class="form-check-label">Option 1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            name="option2"
+            id="option2"
+          />
+          <label for="option2" class="form-check-label">Option 2</label>
+        </div>
+      </form>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
