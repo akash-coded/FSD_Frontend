@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <section>
+      <form action="#">
+        <label for="fname">First name:*</label> <br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="John"
+          required
+          autofocus
+        /><br />
+
+        <label for="lname">Last name:</label> <br />
+        <input type="text" id="lname" name="lname" placeholder="Doe" /><br />
+
+        <label for="email">Email:*</label> <br />
+        <input type="email" name="email" id="email" placeholder="abc@xyz.com" />
+        <br />
+
+        <p>Choose your favourite front-end language:</p>
+        <input type="radio" id="html" name="favLanguage" value="html" />
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="favLanguage" value="css" />
+        <label for="css">CSS</label>
+        <input
+          type="radio"
+          id="javascript"
+          name="favLanguage"
+          value="javascript"
+        />
+        <label for="javascript">Javascript</label>
+        <input type="radio" id="all" name="favLanguage" value="all" />
+        <label for="all">All of the above</label>
+
+        <p>Choose the option(s) applicable for you:</p>
+        <input type="checkbox" id="windows" name="windows" value="windows" />
+        <label for="windows">I have a Windows system</label>
+        <input type="checkbox" id="mac" name="mac" value="mac" />
+        <label for="mac">I have a Mac system</label>
+        <input type="checkbox" id="linux" name="linux" value="linux" />
+        <label for="linux">I have a Linux system</label> <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
