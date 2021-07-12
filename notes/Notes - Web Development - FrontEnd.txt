@@ -1,0 +1,34 @@
+Scrum Team Members:
+	ScrumMaster
+	Product Owner
+	The Team
+
+-----------------------------------------------------------------------------------------------------------------
+
+ES6 Features:
+	let and const keywords
+	arrow functions
+	maps
+	classes
+	default parameters
+	String functions like includes(), etc.
+	Array functions like keys(), etc.
+
+-----------------------------------------------------------------------------------------------------------------
+
+DATATYPES in JS:
+A) Primitives:
+	undefined
+	Boolean
+	Number [-(2 ** 53 - 1) to (2 ** 53 - 1), Infinity, -Infinity]
+	String
+	BigInt [Example: 2 ** 53]
+	Symbol [Example: pi = Symbol('Pi') for await let var] - Global symbol registry
+
+B) Structural:
+	Object
+	Function
+
+C) Special Primitive (Structural Root): 
+	null
+	
