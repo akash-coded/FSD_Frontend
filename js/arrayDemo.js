@@ -1,9 +1,8 @@
-console.log("Vipra Tyagi");
-console.log(2 * 6);
 function arrDemo() {
-  const arr = [5, 2, 6, 8, 9];
+  const arr = [50, 20, 60, 80, 90];
   console.log("Arrays numbers are: ");
   console.table(arr);
+  console.log(arr[2]);
 
   arr.sort();
   console.table(arr);
