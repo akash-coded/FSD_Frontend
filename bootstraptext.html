@@ -29,8 +29,35 @@
     <h6 class="text-warning">Subtext5</h6>
     <hr />
 
+    <p id="insertionBox" name="insertionBox"></p>
+
     <p class="text-light bg-dark">This is a test &nbsp;&nbsp; text.</p>
 
+    <script>
+      document.getElementById("insertionBox").innerHTML =
+        "Hello Javascript!<hr />";
+
+      function pow(x, n) {
+        let result = 1;
+
+        for (let i = 0; i < n; i++) {
+          result *= x;
+        }
+
+        return result;
+      }
+
+      let x = prompt("x?", "");
+      let n = prompt("n?", "");
+
+      if (n < 0) {
+        alert(
+          `Power ${n} is not supported, please enter a non-negative integer number`
+        );
+      } else {
+        alert(pow(x, n));
+      }
+    </script>
     <!-- <script src="vendor/bootstrap-4.6.0-dist/js/bootstrap.js"></script> -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
